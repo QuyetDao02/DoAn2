@@ -1,0 +1,407 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/giày nam/giay-nam.css">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/menu-floot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="menu1">
+        <ul class="menu-line">
+            <li class="menu-content" style="width: 350px;"><a class="letter-color" href="#">Hotline: 0327988071(8h -
+                    12h, 13h30 17h)</a></li>
+            <li class="menu-content"><a class="letter-color" href="#">Tìm cửa hàng</a></li>
+            <li class="menu-content"><a class="letter-color" href="#">Liên hệ hợp tác</a></li>
+            <li class="menu-content"><a class="letter-color" href="Dang-nhap.html">Đăng nhập</a></li>
+        </ul>
+    </section>
+    <section class="sticky">
+        <div class="menu2">
+            <div class="menu-left">
+                <a href="Cua-hang-giay.html">
+                    <img src="img/Capture.PNG" alt="ảnh logo">
+                </a>
+            </div>
+            <div class="content-menu">
+                <label class="barmenu" for="click"><i class="fa fa-align-justify" style="color: black;"></i></label>
+                <input type="checkbox" id="click" class="check"> 
+                <ul class="menu-line2">
+                    <li class="menu-content2"><a class="letter-color2" href="Chi-tiet-cua-hang.html">Về cửa hàng</a></li>
+                    <li class="menu-content2"><a class="letter-color2" href="giay-nam.html">Nam</a></li>
+                    <li class="menu-content2"><a class="letter-color2" href="#">Nữ</a></li>
+                    <li class="menu-content2"><a class="letter-color2" href="#">Bé trai</a></li>
+                    <li class="menu-content2"><a class="letter-color2" href="#">Bé gái</a></li>
+                    <li class="menu-content2"><a class="letter-color2" href="#">Tuyển dụng</a></li>
+                </ul>
+            </div>
+            <div class="icon-menu">
+                <div>
+                    <input type="search" autocomplete="off" placeholder="Nhập giày cần tìm...">
+                </div>
+                <div>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div>
+                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="temporary-menu">
+        <div><a href="Cua-hang-giay.html"><i class="fa-solid fa-house"></i></a></div>
+        <div><a href="Cua-hang-giay.html">Trang chủ</a></div>
+        <div><i class="fa-solid fa-angle-right"></i></div>
+        <div><a href="giay-nam.html">Nam</a></div>
+    </section>
+
+    <section class="slide">
+        <img src="img/Giày nam/255296539_266885312052372_2359907312512942910_n.png" alt="">
+    </section>
+
+    <section class="maquee">
+        <marquee scrollamount="30px" scrolldelay="200px" behavior="" direction="left"><span
+                style="font-weight: bold; font-size: large;">ĐỔI SIZE MIỄN PHÍ: </span><span>Tại tất cả cửa hàng trong
+                vòng 1 tuần</span></marquee>
+    </section>
+
+    <section>
+        <p class="headline">Nam</p>
+        <div class="expand">
+            <div><a href="">Hunter</a></div>
+            <div><a href="">Sacndal</a></div>
+            <div><a href="">Giày thể thao</a></div>
+            <div><a href="">Giày chạy bộ</a></div>
+            <div><a href="">Giày đá banh</a></div>
+            <div><a href="">Giày tây</a></div>
+            <div><a href="">Dép</a></div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <div class="col--2 col-sb-2 col-m-2 row1">
+                <label class="barmenu1" for="click1"><i class="fa-solid fa-filter" style="color: black;"></i></label>
+                <input type="checkbox" id="click1" class="check1">
+                <div class="select">
+                    <h4>Giá</h4>
+                    <h5>Giá từ: <span id="price1"></span><span> VND - 2000000 VND</span></h5>
+                    <input type="range" min="0" max="2000000" value="0" class="slider" id="price">
+                    <script>
+                        var slider = document.getElementById("price");
+                        var output = document.getElementById("price1");
+                        output.innerHTML = slider.value;
+                        slider.oninput = function () {
+                            output.innerHTML = this.value;
+                        }
+                    </script>
+                    <div class="size">
+                        <h4>Size</h4>
+                        <div class="size-number">
+                            <div class="detailed-size-number"><a href="">24</a></div>
+                            <div class="detailed-size-number"><a href="">25</a></div>
+                            <div class="detailed-size-number"><a href="">26</a></div>
+                            <div class="detailed-size-number"><a href="">27</a></div>
+                            <div class="detailed-size-number"><a href="">28</a></div>
+                            <div class="detailed-size-number"><a href="">29</a></div>
+                            <div class="detailed-size-number"><a href="">30</a></div>
+                            <div class="detailed-size-number"><a href="">31</a></div>
+                            <div class="detailed-size-number"><a href="">32</a></div>
+                            <div class="detailed-size-number"><a href="">33</a></div>
+                            <div class="detailed-size-number"><a href="">34</a></div>
+                            <div class="detailed-size-number"><a href="">35</a></div>
+                            <div class="detailed-size-number"><a href="">36</a></div>
+                            <div class="detailed-size-number"><a href="">37</a></div>
+                            <div class="detailed-size-number"><a href="">38</a></div>
+                            <div class="detailed-size-number"><a href="">39</a></div>
+                            <div class="detailed-size-number"><a href="">40</a></div>
+                            <div class="detailed-size-number"><a href="">41</a></div>
+                            <div class="detailed-size-number"><a href="">42</a></div>
+                            <div class="detailed-size-number"><a href="">43</a></div>
+                            <div class="detailed-size-number"><a href="">44</a></div>
+                            <div class="detailed-size-number"><a href="">45</a></div>
+                        </div>
+                    </div>
+
+                    <div class="color">
+                        <h4>Màu sắc</h4>
+                        <div class="shoe-color">
+                            <a href="" class="detailed-color" style="background-color: #FF6600;"></a>
+                            <a href="" class="detailed-color" style="background-color: #000000;"></a>
+                            <a href="" class="detailed-color" style="background-color: #CC0000;"></a>
+                            <a href="" class="detailed-color" style="background-color: #FF0000;"></a>
+                            <a href="" class="detailed-color" style="background-color: #974706;"></a>
+                            <a href="" class="detailed-color" style="background-color: #9E4B07;"></a>
+                            <a href="" class="detailed-color" style="background-color: #76933C;"></a>
+                            <a href="" class="detailed-color" style="background-color: #F9F9F9;"></a>
+                            <a href="" class="detailed-color" style="background-color: #FFFF00;"></a>
+                            <a href="" class="detailed-color" style="background-color: #A6A6A6;"></a>
+                            <a href="" class="detailed-color" style="background-color: #000099;"></a>
+                            <a href="" class="detailed-color" style="background-color: #0000FF;"></a>
+                            <a href="" class="detailed-color" style="background-color: #3399FF;"></a>
+                            <a href="" class="detailed-color" style="background-color: #99FF33;"></a>
+                            <a href="" class="detailed-color" style="background-color: #003399;"></a>
+                            <a href="" class="detailed-color" style="background-color: #FF00CC;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col--9 row1">
+                <div class="panel">
+                    <div class="row2 ">
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278224532_4887508664680326_8504183273553924867_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/275991525_722724372191766_6872706305004470730_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278274597_758532358651740_4741539924756091399_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278429928_683797929523664_1883800033109588550_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278573143_437993744795236_3412704013460506685_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278646500_738063957380307_2787379079029543336_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278153646_710991920320307_6143889331922244597_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">1,010,000 đ</div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="Chi-tiet-giay.html" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278609214_382869747049712_8582981742964910430_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="Chi-tiet-giay.html">Giày Thể Thao Nam Biti's Hunter X Cut-Out</a></div>
+                            <div class="line">1,010,000 đ</div>
+                            <div class="purchases"><a href="Chi-tiet-giay.html">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278568524_1043197652975680_2117991593360137387_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278586135_518340229877436_5557455921761847997_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278444456_541830594019339_7139880161879569659_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+
+                        <div class="col-3 col-s-4 col-m-6 product">
+                            <div class="box">
+                                <a href="#" class="box1"><img
+                                        src="img/Giày nam/Ảnh giày nam/278591322_522812049364837_1405341862803475471_n.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="box2"><a href="">Air jordan 5 white</a></div>
+                            <div class="line-through">750000 VND<span class="inline-through"
+                                    style="color: black;">500000
+                                    VND</span></div>
+                            <div class="purchases"><a href="#">Mua hàng</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-number">
+                    <div><a href="">1</a></div>
+                    <div><a href="">2</a></div>
+                    <div>...</div>
+                    <div><a href="">19</a></div>
+                    <div><a href="">TIẾP</a></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="panel1">
+            <div class="panel-title1">HASHTAG <span style="color: blue;">BITI'S </span>ĐỂ CÓ CƠ HỘI XUẤT HIỆN TRÊN
+                WEBSIDE CỦA CHÚNG TÔI</div>
+            <div class="row">
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277692810_973589759999750_1710721417523781476_n.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277830255_3247226252223217_2085281469384864131_n.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277832977_717600306084945_3739700295102246011_n.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277833116_1320750665102850_978761640735528545_n.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277847238_507868804147349_8408120300839592711_n.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277848267_651238142613078_8762441305773922741_n.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277889682_658236798771572_801075873383536186_n.png" alt="">
+                    </div>
+                </div>
+                <div class="col-1 col-s-3 col-m-3 product1">
+                    <div class="box1">
+                        <img class="img" src="img/hashtag/277920684_397238652147164_3131577065453706224_n.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="floot">
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <div class="floot">
+                    <a href="#" class="flex">Điều khoản</a>
+                    <a href="#" class="flex">Chính sách bảo mật</a>
+                    <a href="#" class="flex">Hướng dẫn sử dụng</a>
+                </div>
+                <div class="floot">
+                    <a href="https://www.facebook.com/profile.php?id=100013163135673" class="flex"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="flex"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" class="flex"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="flex"><i class="fa-brands fa-amazon"></i></a>
+                    <a href="https://www.instagram.com/quyetdao02/" class="flex"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="grid-item item2">
+                <div class="floot1">
+                    <div class="flex1">Thông tin liên hệ:</div>
+                    <div class="flex1">Email: Quyetdao02@gmail</div>
+                    <div class="flex1">Số điện thoại: 0327988071</div>
+                </div>
+            </div>
+            <div class="grid-item item3">bản quyền thuộc về Biti's</div>
+    </section>
+</body>
+
+</html>

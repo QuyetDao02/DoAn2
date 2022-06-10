@@ -1,0 +1,59 @@
+.expand{
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expand > div{
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    display: inline-block;
+}
+
+.expand > div > a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.expand > div:hover{
+    border: 1px dashed #F72C40;
+    padding: 9px 14px 9px 14px;
+}
+
+.expand > div:hover a{
+    color: #F72C40;
+    transition: 0.3s;
+}
+
+.headline{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+}
+
+.content > div{
+    font-size: 14px;
+    font-weight: 350
+}
+
+.content > h4{
+    margin: 40px 0px 5px 25px;
+}
+
+.content > p{
+    margin: 5px 0px 5px 30px;
+    font-size: 13px;
+    font-weight: 350;
+}

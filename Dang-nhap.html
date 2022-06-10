@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Đăng nhập/login.css">
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="page-login">
+            <div class="page-login-box">
+                <h2>Đăng nhập</h2>
+                <form id="login" action="Quan-tri.html">
+                    <div class="usename">
+                        <label for="usename"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" id="taikhoan" name="taikhoan" placeholder="Nhập tên đăng nhập..." required>
+                    </div>
+                    <div class="password">
+                        <label for="password"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" id="matkhau" name="matkhau" placeholder="Nhập mật khẩu...">
+                    </div>
+                    <div class="login">
+                        <input type="submit" value="Đăng nhập">
+                    </div>
+                    <div class="check-login">
+                        <label id="check"></label>
+                    </div>
+                    <div class="add-a-sign-in-option">
+                        <button><i class="fa-brands fa-facebook"></i> Đăng nhập bằng Facebook</button>
+                        <button><i class="fa-brands fa-google-plus-g"></i> Đăng nhập bằng Google</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/login.js"></script>
+    </section>
+</body>
+
+</html>

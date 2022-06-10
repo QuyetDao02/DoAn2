@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-login{
+    width: 100%;
+    background: url(/img/Login/background_login.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.page-login > .page-login-box{
+    width: 400px;
+    top: 15%;
+    left: 30%;
+    position: absolute;
+    padding: 40px;
+
+}
+
+.page-login > .page-login-box > h2{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    color: white;
+}
+
+.page-login > .page-login-box > form > .usename{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.page-login > .page-login-box > form > .usename > label > i{
+    color: white;
+}
+
+.page-login > .page-login-box > form > .usename > input{
+    width: 91%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(/img/Login/background_login.jpg);
+    border: none;
+    color: white;
+}
+
+.page-login > .page-login-box > form > .usename > input::placeholder{
+    font-style: italic;
+}
+
+.page-login > .page-login-box > form > .password{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.page-login > .page-login-box > form > .password > label > i{
+    color: white;
+}
+
+.page-login > .page-login-box > form > .password > input{
+    width: 91%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: url(/img/Login/background_login.jpg);
+    border: none;
+    color: white;
+}
+
+.page-login > .page-login-box > form > .password > input::placeholder{
+    font-style: italic;
+}
+
+.page-login > .page-login-box > form > .login > input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: #034EA1;
+}
+
+.page-login > .page-login-box > form > .login > input[value='Đăng nhập']{
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.page-login > .page-login-box > form > .login > input:hover{
+    opacity: 0.7;
+}
+
+.page-login > .page-login-box > form > .check-login > label{
+    color: red;
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option{
+    margin: 10px 0px 10px 0px;
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option > button{
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    cursor: pointer;
+    background: url(/img/Login/background_login.jpg);
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option > button:first-child {
+    color: #4B6EA9;
+    border: 1px solid #4B6EA9;
+    border-radius: 10px;
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option > button:first-child > i{
+    color: #4B6EA9;
+    font-size: 15px;
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option > button:last-child {
+    color: #E5604C;
+    border: 1px solid #E5604C;
+    border-radius: 10px;
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option > button:last-child > i{
+    color: #E5604C;
+    font-size: 15px;
+}
+
+.page-login > .page-login-box > form > .add-a-sign-in-option > button:hover{
+    border: 1px dashed;
+    background: white;
+}
+
+@media (max-width: 400px){
+    .page-login > .page-login-box{
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-top: 1px solid;
+    }
+}

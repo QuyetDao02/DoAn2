@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/Quan_tri/Quantri.css">
+</head>
+
+<body>
+    <section class="top">
+        <ul class="user">
+            <li class="sign-out">Xin chào Admin<i class="fa-solid fa-caret-down"></i>
+                <ul>
+                    <li><i class="fa-solid fa-right-from-bracket"></i>Đăng xuất</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <div class="content">
+            <div class="row">
+                <div class="content-left col-2 col-s-3 col-m-6">
+                    <div class="tab">
+                        <button class="tablinks" onclick="tab(event, 'type-of-shoes')" id="defaultOpen">Quản lý loại
+                            giày</button>
+                        <button class="tablinks" onclick="tab(event, 'shoes')">Quản lý giày</button>
+                        <button class="tablinks" onclick="tab(event, 'suppliers')">Quản lý nhà cung cấp</button>
+                        <button class="tablinks" onclick="tab(event, 'import-invoice')">Quản lý hóa đơn nhập</button>
+                        <button class="tablinks" onclick="tab(event, 'customer')">Quản lý khách hàng</button>
+                        <button class="tablinks" onclick="tab(event, 'sales-invoices')">Quản lý hóa đơn bán</button>
+                        <button class="tablinks" onclick="tab(event, 'statistics')">Thống kê</button>
+                    </div>
+                </div>
+
+                <div class="content-right col---10 col-s-9 col-m-6">
+
+                    <div id="type-of-shoes" class="tabcontent row2">
+                        <div class="type-of-shoes col--4 col-sb-12 col-mb-12">
+                            <div class="title">
+                                Nhập thông tin loại sản phẩm
+                            </div>
+                            <div class="row1">
+                                <form>
+                                    <div class="padding-box">
+                                        <label for="txtright">Mã loại giày:</label>
+                                        <input type="text" id="maloai"
+                                            placeholder="Nhập mã loại sản phẩm...Tự động sinh nếu không nhập...">
+                                    </div>
+                                    <div class="padding-box">
+                                        <label for="txtright">Tên loại giày:</label>
+
+                                        <input type="text" id="tenloai" placeholder="Nhập tên loại sản phẩm...">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="service">
+                                <button class="btn-add">Thêm loại giày</button>
+                                <button class="btn-new">Nhập mới</button>
+                                <button class="btn-update">Cập nhật thông tin</button>
+                            </div>
+                        </div>
+                        <div class="information col--7 col-sb-12 col-mb-12">
+                            <div class="search">
+                                <p class="title1">Danh sách sản phẩm</p>
+                                <p>Tìm kếm</p>
+                                <input type="text" id="search" placeholder="Nhập mã loại hoặc tên loại giày">
+                                <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i>Tìm kiếm</button>
+                            </div>
+                            <div class="content1">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th><input type="checkbox"></th>
+                                            <th>Mã loại sản phẩm</th>
+                                            <th>Tên loại sản phẩm</th>
+                                            <th>Thao tác</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div class="content1">
+                                <div class="box-sum">
+                                    <div class="box-left">
+                                        Số lượng loại sản phẩm: <span id="soluong">0</span>
+                                    </div>
+                                    <div class="box-right">
+                                        <button><i class="fas fa-angle-left"></i></button>
+                                        <button>1</button>
+                                        <button>2</button>
+                                        <button>3</button>
+                                        <button>4</button>
+                                        <button><i class="fas fa-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="shoes" class="tabcontent">
+                        <h3>Paris</h3>
+                        <p>Paris is the capital of France.</p>
+                    </div>
+
+                    <div id="suppliers" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                    <div id="import-invoice" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                    <div id="customer" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                    <div id="sales-invoices" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                    <div id="statistics" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+
+                </div>
+            </div>
+            <script src="js/tab.js"></script>
+        </div>
+    </section>
+</body>
+
+</html>

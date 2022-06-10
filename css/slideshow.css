@@ -1,0 +1,93 @@
+#slide{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#slide .slideshow {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#slide .slideshow > .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+#slide .mySlides {
+    display: none;
+}
+
+#slide .slideshow > .fade > .slide {
+    width: 100%;
+    height: auto;
+}
+
+#slide .slideshow > .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 16px 23px 16px 23px;
+    background-color: black;
+    border-radius: 50%;
+    user-select: none;
+    display: none;
+}
+
+#slide .slideshow > .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 16px 23px 16px 23px;
+    background-color: black;
+    border-radius: 50%;
+    user-select: none;
+    margin-left: 96%;
+    display: none;
+}
+
+
+#slide .slideshow:hover .next {
+    display: block;
+}
+
+#slide .slideshow:hover .prev {
+    display: block;
+}
+
+#slide .slideshow:hover .prev > i{
+    color: white;
+}
+
+#slide .slideshow:hover .next > i{
+    color: white;
+}
+
+#slide .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#slide .active,.dot:hover {
+    background-color: #717171;
+}
+
+
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
